@@ -7,5 +7,7 @@ import svelte from '@astrojs/svelte';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [react(), svelte()]
+  integrations: [svelte()],
+  site: 'https://uniboxx.github.io',
+  base: '/astro-landing-book',
 });

@@ -1,8 +1,13 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '@components/HeroSection.astro';
+import ChapterPreview from '@components/ChapterPreview.astro';
+import { chapters } from '@assets/data';
+import AuthorSection from '@components/AuthorSection.astro';
 ---
 
-<Layout>
-  <Welcome />
-</Layout>
+<BaseLayout>
+  <HeroSection />
+  <ChapterPreview data={chapters} />
+  <AuthorSection />
+</BaseLayout>

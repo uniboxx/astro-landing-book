@@ -9,13 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.2.1",
-    "@astrojs/svelte": "^7.0.7",
-    "@types/react": "^19.0.12",
-    "@types/react-dom": "^19.0.4",
-    "astro": "^5.5.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "@astrojs/svelte": "^7.0.8",
+    "astro": "^5.5.5",
     "svelte": "^5.25.3",
     "typescript": "^5.8.2"
   },
