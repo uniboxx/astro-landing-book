@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root {
   --background: #fefefe;
@@ -42,4 +43,8 @@ a {
 
 .purple {
   color: #3233a6;
+}
+
+h1 {
+  font-family: Anton, sans-serif;
 }
