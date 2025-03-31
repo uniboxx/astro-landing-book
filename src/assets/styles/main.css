@@ -46,5 +46,25 @@ a {
 }
 
 h1 {
+  font-size: 4rem;
   font-family: Anton, sans-serif;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: Anton, sans-serif;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 80rem) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
 }
